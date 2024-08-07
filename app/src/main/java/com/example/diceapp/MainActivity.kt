@@ -73,7 +73,7 @@ fun DiceWithImage(modifier: Modifier=Modifier){
     Column(modifier=modifier,
         horizontalAlignment = Alignment.CenterHorizontally
         ) {
-                Image(painter = painterResource(imgResource) , contentDescription = "1",
+                Image(painter = painterResource(imgResource) , contentDescription = "first",
                     Modifier.height(440.dp))
                 Spacer(modifier = Modifier.height(86.dp))
                 Button(onClick = {
